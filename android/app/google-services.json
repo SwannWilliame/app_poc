@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "796482903303",
+    "project_id": "app-poc-ce271",
+    "storage_bucket": "app-poc-ce271.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796482903303:android:5e3d86416e1b4495c379a2",
+        "android_client_info": {
+          "package_name": "fr.swann.app_for_poc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796482903303-ui757922pb3g88rcd8lhi225skrgidb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-8Xmh0fgN6mc5ESABdt51sOWXi9LdEJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796482903303-ui757922pb3g88rcd8lhi225skrgidb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
