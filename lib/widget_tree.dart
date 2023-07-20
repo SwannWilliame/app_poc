@@ -1,7 +1,7 @@
 import 'package:app_for_poc/screens/auth_pages/signin.dart';
+import 'package:app_for_poc/screens/screen_projector.dart';
 import 'package:flutter/material.dart';
 import 'package:app_for_poc/auth.dart';
-import 'package:app_for_poc/screens/home.dart';
 
 class WidgetTree extends StatefulWidget {
   const WidgetTree({super.key});
@@ -17,7 +17,7 @@ class _WidgetTreeState extends State<WidgetTree> {
       stream: Auth().authStateChanges,
       builder: (context, snapshot){
         if(snapshot.hasData){
-          return Home();
+          return ScreenProjector();
         }
         else{
           return const SignIn();

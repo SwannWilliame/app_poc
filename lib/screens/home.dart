@@ -57,30 +57,18 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300],
-      appBar: AppBar(
-        title: const Text(
-          "Home Page",
-          style: TextStyle(
-            fontSize: 25,
-          ),
-          ),
-        centerTitle: true,
-        elevation: 0,
-        backgroundColor: Colors.grey[900],
-      ),
-      drawer: MyDrawer(
-        onProfileTap: () => goToProfilePage(context),
-        onSignOut: signOut,
-        onSettingsTap: () => goToSettingsPage(context),
-      ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            infoText("uid",user!.uid.toString()),
-          ],
-        ),
+        child: Center(
+          child: Text(
+            "Home Page",
+            style: TextStyle(
+              fontSize: 40,
+              color: Colors.black,
+              fontWeight: FontWeight.bold
+            ),
+          ),
+        )
       )
     );
   }

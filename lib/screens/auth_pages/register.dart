@@ -94,7 +94,9 @@ class _RegisterState extends State<Register> {
                   .authStateChanges()
                   .listen((User? user) {
                     if (user != null) {
-                      Navigator.pop(context);
+                      Future.delayed(Duration.zero, () {
+                        Navigator.pop(context);
+                      });
                     }
                   });
                 },
